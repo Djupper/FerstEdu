@@ -20,5 +20,9 @@ public class Main {
     list.add(p5);
 
     list.stream().map(p -> p.getName()).distinct().forEach(System.out::println);
+    /*String a = list.stream().map(p -> p.getName()).distinct().collect(Collectors.joining(", "));
+
+    System.out.println(a);
+    */
 
 }
