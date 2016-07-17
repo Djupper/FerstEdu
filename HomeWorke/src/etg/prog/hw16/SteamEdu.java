@@ -4,6 +4,8 @@ package etg.prog.hw16;
  * Created by AsusD on 17.07.2016.
  */
 public class SteamEdu {
+
+    private
     String name;
     int age;
 
